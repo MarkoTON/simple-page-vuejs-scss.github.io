@@ -1,34 +1,29 @@
 <template>
   <div class="home">
-    
+    <Navbar />
+    <Content />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Navbar from './Navbar.vue'
+import Content from './Content.vue'
+import Footer from './Footer.vue'
+
 export default {
   name: 'Home',
+  components: {
+    Navbar,
+    Content,
+    Footer
+  },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
 </script>
 
 <style lang="scss">
-h1, h2 {
-  font-weight: normal;
-  color:red;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 </style>

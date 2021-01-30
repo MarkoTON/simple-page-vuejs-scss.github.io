@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Open Sans';
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+$colors: (
+  primary: #1f5d6a,
+  text-color: #3e757f,
+  border-color: #d4d8d9,
+  footer-color: #2d4e55
+  );
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+};
