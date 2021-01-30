@@ -60,7 +60,12 @@ exports.cssLoaders = function (options) {
     postcss: generateLoaders(),
     less: generateLoaders('less'),
     sass: generateLoaders('sass', { indentedSyntax: true }),
-    scss: generateLoaders('sass', { data: `@import '@/scss/_shared.scss';` }),
+    scss: generateLoaders('sass', { 
+      data: `
+      @import '@/scss/_shared.scss';
+      @import '@/scss/_media.scss';
+      ` 
+    }),
     stylus: generateLoaders('stylus'),
     styl: generateLoaders('stylus')
   }
