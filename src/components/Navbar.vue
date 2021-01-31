@@ -21,13 +21,14 @@
 <style lang="scss">
 header {
   position: fixed;
+  top:0;
   z-index: 100;
   width: 100%;
   background-color: color(primary);
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  // height: 80px;
+  color: white;
 
   .logo {
     display: flex;
@@ -36,6 +37,7 @@ header {
     padding: 1rem;
 
     a {
+      color:white;
       display: flex;
       align-items: center;
       text-decoration: none;
@@ -59,6 +61,10 @@ header {
     a {
       font-size: 0.95rem;
       text-decoration: none;
+      
+      li {
+        color:white;
+      }
     }
   }
 
@@ -105,7 +111,7 @@ header {
   }
 }
 
-@include desktop {
+@include laptop {
   header{
     .logo {
       width: 300px;
