@@ -61,6 +61,52 @@
         </div><!-- card -->
       </div><!-- card-section -->
     </section><!-- adventure-travel -->
+    <section class="popular-tours">
+      <h1>Most popular tours</h1>
+      <div class="card-popular-tours">
+        <div class="card-tours">
+          <img src="../assets/images/img-sea.jpg" class="img-header" alt="">
+          <h3>The Sea Explorer</h3>
+          <ul>
+            <li>3 day thours</li>
+            <li>Up to 30 people</li>
+            <li>2 thour guides</li>
+            <li>Sleep in cozy hotels</li>
+            <li>Difficulty: easy</li>
+          </ul>
+        </div><!-- card-tours -->
+
+        <div class="card-tours">
+          <img src="../assets/images/img-forest.jpg" class="img-header" alt="">
+          <h3>The Sea Explorer</h3>
+          <ul>
+            <li>5 day thours</li>
+            <li>Up to 15 people</li>
+            <li>3 thour guides</li>
+            <li>Sleep in provided tents</li>
+            <li>Difficulty: hard</li>
+          </ul>
+        </div><!-- card-tours -->
+
+        <div class="card-tours">
+          <img src="../assets/images/img-snow.jpg" class="img-header" alt="">
+          <h3>The Sea Explorer</h3>
+          <ul>
+            <li>7 day thours</li>
+            <li>Up to 40 people</li>
+            <li>6 thour guides</li>
+            <li>Sleep in provided tents</li>
+            <li>Difficulty: medium</li>
+          </ul>
+        </div><!-- card-tours -->
+      </div><!-- card-popular-tours -->
+
+      <button class="btn btn-popular">Descover all tours</button>
+    </section>
+
+    <footer>
+      
+    </footer>
   </main>
 </template>
 <script>
@@ -158,12 +204,97 @@ main {
       }
     }
   }
+
+  section.popular-tours {
+    padding: 15px 15px 50px 15px;
+    text-align: center;
+
+    h1 {
+      margin: 1.5rem 0;
+      color: color(text-color);
+    }
+
+    .btn-popular {
+      color: white;
+      text-transform: uppercase;
+      background-color: #1b6371;
+      background: color(footer-color);
+      background: linear-gradient(90deg, rgba(45,78,85,1) 0%, rgba(41,88,98,1) 16%, rgba(31,116,134,1) 84%);
+    }
+
+    .card-popular-tours {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 2rem;
+
+      .card-tours {
+        border: 1px solid color(border-color);
+        margin: 10px 0;
+  
+        .img-header {
+          width: 100%;
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        }
+  
+        h3 {
+          margin-top: 1rem;
+          text-align: center;
+          font-weight: 900;
+          color: color(text-color);
+        }
+  
+  
+        ul {
+          padding: 1rem 3rem 3rem 3rem;
+          
+          li {
+            font-size: 0.75rem;
+            color: color(text-color);
+            font-weight: 600;
+            list-style: none;
+            padding: 10px;
+            border-bottom: 1px solid color(border-color);
+          }
+        }
+        
+        &:hover {
+          background-color: #1f5d6a;
+          color:white;
+  
+          h3 {
+            color: white;
+          }
+  
+          li {
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }
 
 @include tablet {
   main {
     margin-top: 97px;
+
+    section.popular-tours {
+      .card-popular-tours {
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .card-tours {
+          margin-right: 0.25rem;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+      }
+    }
   }
+
 }
 
 @include laptop {

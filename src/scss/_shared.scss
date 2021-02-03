@@ -31,6 +31,26 @@ $colors: (
   @return map-get($icons, $icon-name);
 }
 
+@function images($image-name){
+  @return map-get($images, $image-name);
+}
+
 @function color($color-name) {
   @return map-get($colors, $color-name);
 };
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 1rem 1.5rem;
+  font-size: 0.75rem;
+  border-radius: 100px;
+}
