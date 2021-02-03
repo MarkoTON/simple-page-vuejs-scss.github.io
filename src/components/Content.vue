@@ -103,10 +103,6 @@
 
       <button class="btn btn-popular">Descover all tours</button>
     </section>
-
-    <footer>
-      
-    </footer>
   </main>
 </template>
 <script>
@@ -272,7 +268,7 @@ main {
       }
     }
   }
-}
+};
 
 @include tablet {
   main {
@@ -292,10 +288,10 @@ main {
         }
 
       }
-    }
-  }
+    };
 
-}
+  };
+};
 
 @include laptop {
   main {
@@ -306,9 +302,9 @@ main {
 
         article {
           width: 100%;
-        }
-      }
-    }
+        };
+      };
+    };
 
     section.adventure-travel.bg-cover-gradient {
       .card-section {
@@ -322,7 +318,7 @@ main {
           }
         }
       }
-    }
-  }
-}
+    };
+  };
+};
 </style>
