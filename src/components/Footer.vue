@@ -2,10 +2,10 @@
   <footer>
     <nav>
       <ul>
-        <a href=""><li>Destinations</li></a>
-        <a href=""><li>Travel</li></a>
-        <a href=""><li>Destinations</li></a>
-        <a href=""><li>Destinations</li></a>
+        <a href="#"><li>Destinations</li></a>
+        <a href="#"><li>Travel styles</li></a>
+        <a href="#"><li>Travel Deal</li></a>
+        <a href="#"><li>Gear</li></a>
       </ul>
     </nav>
 
@@ -42,27 +42,73 @@ export default {
 </script>
 <style lang="scss">
 footer {
-background-color: color(footer-color);
+  background-color: color(footer-color);
 
-nav {
-  padding: 30px 0;
+  nav {
+    padding: 30px 0;
 
-  ul {
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    justify-content: center;
-    padding: 20px 15px;
+    ul {
+      display: flex;
+      flex-direction: row;
+      font-size: 0.95rem;
+      justify-content: space-around;
+      padding: 20px 0px;
 
-      a {
-        margin: 10px;
-        color: white;
-        text-decoration: none;
+        a {
+          text-decoration: none;
 
-        li {
-          list-style: none;
+          li {
+            color: white;
+            list-style: none;
+          }
         }
       }
+    }
+    
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    
+    .icon-media {
+      text-align: center;
+      border-radius: 50px;
+      width: 35px;
+      height: 35px;
+      background-color: #0193af;
+      margin: 0 5px;
+      
+      img {
+        width: 20px;
+        margin-top: 8px;
+      }
+    }
+    
+  }
+  
+  #footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: #1b373b;
+    font-size: 12px;
+    
+    .logo-item {
+      display: flex;
+      align-items: center;
+
+      span {
+        color: white;
+      }
+      img {
+        margin-right: 15px;
+      }
+    }
+
+    .copy-right {
+      color: white;
     }
   }
 }
@@ -71,6 +117,12 @@ nav {
   footer {
     flex-direction: row;
     justify-content: center;
+
+     nav {
+      ul {
+        justify-content: center
+      }
+    }
 
     a {
       margin: 0 10px;
