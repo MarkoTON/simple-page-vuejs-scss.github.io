@@ -15,9 +15,4 @@ export default {
 }
 </script>
 <style lang="scss">
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  font-family: 'Open Sans';
-}
 </style>

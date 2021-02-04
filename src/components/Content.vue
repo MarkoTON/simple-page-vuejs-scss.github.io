@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="connect-to-world">
+    <section class="connect-to-world container">
       <h1>Connect to the world</h1>
       <div class="main-content-world">
         <article>
@@ -19,87 +19,92 @@
       </div>
     </section><!-- connect-to-world -->
     <section class="adventure-travel bg-cover-gradient">
-      <h1>Why adventure travel?</h1>
-      <div class="card-section">
-        <div class="card">
-          <div>
-            <span class="icon icon-airplane"></span>
-          </div>
-          <div class="card-body">
-            <h2>Explore The World</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!
-            </p>
-          </div><!-- card-body -->
-        </div><!-- card -->
-        <div class="card">
-          <img src="../assets/icons/icon-earth.svg" alt="Icon airplane">
-          <div class="card-body">
-            <h2>Meet nature</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!
-            </p>
-          </div><!-- card-body -->
-        </div><!-- card -->
-        <div class="card">
-          <img src="../assets/icons/icon-compass.svg" alt="Icon airplane">
-          <div class="card-body">
-            <h2>Know your way</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!
-            </p>
-          </div><!-- card-body -->
-        </div><!-- card -->
-        <div class="card">
-          <img src="../assets/icons/icon-heart.svg" alt="Icon airplane">
-          <div class="card-body">
-            <h2>Live a healthier life</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!
-            </p>
-          </div><!-- card-body -->
-        </div><!-- card -->
-      </div><!-- card-section -->
+      <div class="container">
+        <h1>Why adventure travel?</h1>
+        <div class="card-section">
+          <div class="card">
+            <div>
+              <span class="icon icon-airplane"></span>
+            </div>
+            <div class="card-body">
+              <h2>Explore The World</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!o, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!
+              </p>
+            </div><!-- card-body -->
+          </div><!-- card -->
+          <div class="card">
+            <img src="../assets/icons/icon-earth.svg" alt="Icon airplane">
+            <div class="card-body">
+              <h2>Meet nature</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio eo, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!xcepturi praesentium dolorum itaque earum temporibus? Aut!
+              </p>
+            </div><!-- card-body -->
+          </div><!-- card -->
+          <div class="card">
+            <img src="../assets/icons/icon-compass.svg" alt="Icon airplane">
+            <div class="card-body">
+              <h2>Know your way</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!o excepturi praesentium dolorum itaque earum temporibus? Aut!
+              </p>
+            </div><!-- card-body -->
+          </div><!-- card -->
+          <div class="card">
+            <img src="../assets/icons/icon-heart.svg" alt="Icon airplane">
+            <div class="card-body">
+              <h2>Live a healthier life</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo porro, perspiciatis optio eo, perspiciatis optio excepturi praesentium dolorum itaque earum temporibus? Aut!xcepturi praesentium dolorum itaque earum temporibus? Aut!
+              </p>
+            </div><!-- card-body -->
+          </div><!-- card -->
+        </div><!-- card-section -->
+      </div>
     </section><!-- adventure-travel -->
     <section class="popular-tours">
       <h1>Most popular tours</h1>
-      <div class="card-popular-tours">
-        <div class="card-tours">
-          <img src="../assets/images/img-sea.jpg" class="img-header" alt="">
-          <h3>The Sea Explorer</h3>
-          <ul>
-            <li>3 day thours</li>
-            <li>Up to 30 people</li>
-            <li>2 thour guides</li>
-            <li>Sleep in cozy hotels</li>
-            <li>Difficulty: easy</li>
-          </ul>
-        </div><!-- card-tours -->
 
-        <div class="card-tours">
-          <img src="../assets/images/img-forest.jpg" class="img-header" alt="">
-          <h3>The Sea Explorer</h3>
-          <ul>
-            <li>5 day thours</li>
-            <li>Up to 15 people</li>
-            <li>3 thour guides</li>
-            <li>Sleep in provided tents</li>
-            <li>Difficulty: hard</li>
-          </ul>
-        </div><!-- card-tours -->
+      <div class="container">
+        <div class="card-popular-tours">
+          <div class="card-tours">
+            <img src="../assets/images/img-sea.jpg" class="img-header" alt="">
+            <h3>The Sea Explorer</h3>
+            <ul>
+              <li>3 day thours</li>
+              <li>Up to 30 people</li>
+              <li>2 thour guides</li>
+              <li>Sleep in cozy hotels</li>
+              <li>Difficulty: easy</li>
+            </ul>
+          </div><!-- card-tours -->
 
-        <div class="card-tours">
-          <img src="../assets/images/img-snow.jpg" class="img-header" alt="">
-          <h3>The Sea Explorer</h3>
-          <ul>
-            <li>7 day thours</li>
-            <li>Up to 40 people</li>
-            <li>6 thour guides</li>
-            <li>Sleep in provided tents</li>
-            <li>Difficulty: medium</li>
-          </ul>
-        </div><!-- card-tours -->
-      </div><!-- card-popular-tours -->
+          <div class="card-tours">
+            <img src="../assets/images/img-forest.jpg" class="img-header" alt="">
+            <h3>The Sea Explorer</h3>
+            <ul>
+              <li>5 day thours</li>
+              <li>Up to 15 people</li>
+              <li>3 thour guides</li>
+              <li>Sleep in provided tents</li>
+              <li>Difficulty: hard</li>
+            </ul>
+          </div><!-- card-tours -->
+
+          <div class="card-tours">
+            <img src="../assets/images/img-snow.jpg" class="img-header" alt="">
+            <h3>The Sea Explorer</h3>
+            <ul>
+              <li>7 day thours</li>
+              <li>Up to 40 people</li>
+              <li>6 thour guides</li>
+              <li>Sleep in provided tents</li>
+              <li>Difficulty: medium</li>
+            </ul>
+          </div><!-- card-tours -->
+        </div><!-- card-popular-tours -->
+      </div>
 
       <button class="btn btn-popular">Descover all tours</button>
     </section>
@@ -296,8 +301,14 @@ main {
 @include laptop {
   main {
     margin-top: 65px;
-    section {
+     section.connect-to-world {
+       
+       h1 {
+         padding: 1rem 0 2rem 0;
+       }
+
       .main-content-world {
+        
         flex-direction: row;
 
         article {
@@ -321,4 +332,63 @@ main {
     };
   };
 };
+
+@include desktop {
+  main {
+    section.connect-to-world {
+  
+      h1 {
+        font-size: 3rem;
+      };
+    }
+  
+    section.adventure-travel.bg-cover-gradient {
+      clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
+      .container {
+        h1 {
+          font-size: 3rem;
+          padding: 6rem 0 3rem 0;
+        }
+  
+        .card-section {
+          padding: 2rem 0 10rem 0;
+    
+  
+          .card {
+            h2 {
+              padding: 1rem 0;
+            }
+          }
+        }
+      }
+    }
+
+    section.popular-tours {
+          
+      h1 {
+        margin: 1.5rem 0;
+        color: color(text-color);
+        font-size: 3rem;
+      }
+
+      .container {
+    
+        .card-popular-tours {
+          padding-bottom: 3rem;
+    
+          .card-tours {
+      
+            ul {
+              
+              li {
+                font-size: 1rem;
+              }
+            }
+          
+          }
+        }
+      }
+    }
+  }
+}
 </style>

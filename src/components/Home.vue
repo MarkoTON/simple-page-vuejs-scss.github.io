@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" >
     <Navbar />
     <Content />
     <Footer />
@@ -26,4 +26,11 @@ export default {
 </script>
 
 <style lang="scss">
+@include desktop {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    // background: red;
+  }
+}
 </style>
