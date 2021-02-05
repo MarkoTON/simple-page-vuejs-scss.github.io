@@ -300,7 +300,7 @@ main {
 
 @include laptop {
   main {
-    margin-top: 65px;
+    margin-top: 81px;
      section.connect-to-world {
        
        h1 {

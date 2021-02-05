@@ -127,6 +127,7 @@ header {
 
 @include laptop {
   header{
+    padding: 0.5rem 0;
     .container {
 
       .logo {
@@ -138,6 +139,7 @@ header {
         padding: 0 0.5rem;
   
         a {
+          font-size: 1rem;
           padding: 0 0.25rem;
         }
       }
